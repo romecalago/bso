@@ -1,0 +1,881 @@
+/* BSO Styles */
+
+.blog{
+	.blog-author{
+		font-size:13px;
+		margin-bottom:20px;
+	}
+	h4.subtitle{
+		margin-bottom:0;
+	}
+}
+
+.single-post{
+	.blog-author{
+		margin-bottom: 15px;
+	}
+}
+
+#team-members{
+	.understrap-read-more-link{
+		display:none;
+	}
+}
+
+.select2-container--open .select2-dropdown{
+	top:32px;
+}
+#newsletter{
+	background-position: top left -10rem;
+	.subtitle{
+		margin-top: 40px;
+	}
+	.serif-title{
+		margin-bottom:0;
+	}
+	#gform_wrapper_2{
+		#gform_2{
+			.gform_body{
+				.gform_fields{
+					li.gfield{
+						input, textarea{
+							  background: transparent;
+						    border: none;
+						    border-bottom: 1px solid #000;
+						    border-radius: 0;
+						    color: #000;
+						}
+						select{
+
+						}
+						.ginput_container_select{
+							.select2-container{
+								.select2-selection--single{
+									height:39.8px;
+									border-color:#000;
+									color:#000;
+									.select2-selection__rendered, .select2-selection__placeholder{
+										color: #767d83;
+    								font-weight: 400;
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+.sign-up-news{
+	    float: left;
+	.sign-up-news-left{
+		float:left;
+		width:350px;
+		h4.subtitle{
+			margin-top:30px;
+		}
+		h2.serif-title{
+			margin-bottom:30px;
+		}
+	}
+	.sign-up-news-right{
+		float:left;
+		width:calc(100% - 350px);
+		padding-left:20px;
+		    padding-top: 20px;
+	}
+	#gform_wrapper_1{
+		#gform_1{
+			.gform_body{
+				float:left;
+				width:calc(100% - 111px);
+				max-width:100%;
+				.gform_fields{
+					li.gfield{
+						display:block;
+						input.gfield-choice-input{
+							  float: left;
+    						width: auto;
+    						margin-right: 10px;
+    						height: 23px;
+						}
+					}
+					.gfield_checkbox {
+						li.gchoice{
+							width:100%;
+						}
+						li label{
+							font-size: 12px;
+							max-width: calc(100% - 35px);
+						}
+					}
+				}
+			}
+			.gform_footer{
+				width:111px;
+				input[type=submit]{
+					margin-right:0;
+				}
+			}
+		}
+	}
+}
+
+@media (min-width: 1920px) {
+	.navbar-expand, .navbar-expand-lg{
+		.navbar-nav{
+			.nav-item{
+				.nav-link{
+					margin: 0 1.125rem;
+				}
+			}
+		}
+	}
+}
+
+@media (min-width: 1200px) {
+	.navbar-expand, .navbar-expand-lg{
+		.navbar-nav{
+			.nav-item{
+				.nav-link{
+					margin: 0 1rem;
+				}
+			}
+		}
+	}
+}
+
+@media (max-width: 1440px) {
+	#newsletter{
+		#gform_wrapper_2{
+			#gform_2{
+				.gform_body{
+					.gform_fields{
+						li.gfield{
+							.ginput_container_select{
+								.select2-container{
+									.select2-selection--single{
+										height:33.5px;
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+@media (max-width: 1200px) {
+	#newsletter{
+		#gform_wrapper_2{
+			#gform_2{
+				.gform_body{
+					.gform_fields{
+						li.gfield{
+							.ginput_container_select{
+								.select2-container{
+									.select2-selection--single{
+										height:29.3px;
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+@media (max-width: 992px) {
+	#newsletter{
+		#gform_wrapper_2{
+			#gform_2{
+				.gform_body{
+					.gform_fields{
+						li.gfield{
+							.ginput_container_select{
+								.select2-container{
+									.select2-selection--single{
+										height:38px;
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+
+	.sign-up-news{
+		.sign-up-news-left{
+			width:100%;
+			h2.serif-title{
+				margin-bottom:10px;
+			}
+		}
+		.sign-up-news-right{
+			width:100%;
+			padding-left: 0px;
+			padding-top: 0px;
+		}
+		#gform_wrapper_1{
+			#gform_1{
+				margin:0;
+				.gform_body{
+					width:100%;
+					max-width:100%;
+				}
+			}
+		}
+	}
+}
+
+
+/* BSO Styles */
+
+.single-treatment{
+	#book-row{
+		padding-top:0;
+	}
+	#faq{
+		#faq-collapse{
+			.subtitle{
+				line-height:1.5;
+				text-transform:none;
+				border: none;
+				margin-bottom:0;
+				padding: 10px 0;
+
+				padding-right: 44px;
+			    background-image: url('../img/plus.png');
+			    background-repeat: no-repeat;
+			    background-size: 24px;
+			    background-position: right 10px center;
+			    cursor:pointer;
+			}
+			.subtitle[aria-expanded=true]{
+				background:none;
+				padding:10px 0 20px;
+				background-image: url('../img/minus.png');
+				background-repeat: no-repeat;
+			    background-size: 24px;
+			    background-position: right 10px center;
+			}
+			.single-faq{
+				&:first-child{
+					border-top: 1px solid;
+				}
+				border-bottom: 1px solid;
+			}
+		}
+
+	}
+	.inner-feat-image{
+		text-align:center;
+	}
+	.subtitle{
+		margin-top:2em;
+	}
+	#introduction{
+		h1{
+			margin-bottom:3rem;
+		}
+	}
+	h2{
+		margin-bottom:20px;
+		font-size: 2.75rem;
+		font-family: pt-serif, serif;
+	}
+	h3{
+		font-size: 1.5rem;
+    	margin: 20px 0 10px;
+    	font-family: pt-serif, serif;
+	}
+	#treatment-header{
+		p{
+			font-size:1rem;
+		}
+		p:first-of-type{
+			font-family: montserrat, sans-serif;
+			font-size: 1rem;
+    		line-height: 1.5rem;
+    		margin-bottom: 1rem;
+		}
+		p:last-of-type{
+			margin-bottom:1rem;
+		}
+	}
+}
+
+.greybg{
+	background:#c4c4c4;
+	hr{
+		margin:3rem 0;
+	}	
+}
+.intro-area{
+	padding-top: 50px;
+    padding-bottom: 50px;
+    max-width: 800px;
+    margin:0 auto;
+}
+.center{
+	text-align:center;
+}
+.padding{
+	padding-top:50px;
+	padding-bottom:50px;
+}
+.consult-button{
+	text-align:center;
+}
+
+.procedure-info{
+	margin:30px auto 0;
+	.procedure-column{
+		float:left;
+		width:32%;
+		margin-right:2%;
+	}
+	.procedure-block{
+		background:#c4c4c4;
+		padding:15px 20px 20px 60px;
+		margin-bottom:20px;
+		background-repeat: no-repeat;
+		background-position:left 20px top 20px;
+		background-size:30px;
+		font-size: 15px;
+		&.duration{
+			background-image:url('../img/duration.png');
+		}
+		&.anaesthesia{
+			background-image:url('../img/anesthesia.png');
+		}
+		&.hospital{
+			background-image:url('../img/hospital-stay.png');
+		}
+		&.recovery{
+			background-image:url('../img/recovery.png');
+		}
+		&.results{
+			background-image:url('../img/results.png');
+		}
+	}
+	.procedure-column-3{
+		margin-right:0;
+		.procedure-block{
+			min-height:180px;
+		}
+	}
+}
+
+.table-contents{
+	margin:30px 0;
+	.anchor-link{
+		float:left;
+		width:50%;
+		padding:5px 0;
+		text-decoration: underline;
+	}
+}
+
+.types{
+	margin:40px 0;
+	text-align: center;
+	.type{
+		display:inline-block;
+		width:31.5%;
+		margin-right:2%;
+		margin-bottom:25px;
+		padding: 30px 30px 25px;
+	    vertical-align: top;
+	    min-height: 340px;
+	    text-align: left;
+	    //background: #000;
+	    //color:#fff;
+	    border-bottom-right-radius: 80px;
+    	border-top-left-radius: 80px;
+    	border: 1px solid #adadad;
+    	box-shadow:1px 1px 15px #adadad;
+	    &:nth-child(3n+3){
+	    	margin-right:0;
+	    }
+	    h3{
+	    	margin:0 0 30px;
+	    	position:relative;
+			line-height:1.7;
+			padding-top:10px;
+			border-bottom: 1px solid #adadad;
+			float:left;
+			img{
+				position:absolute;
+				top:0;
+				left:0;
+				width:60px;
+				border-radius:50%;
+			}
+			&.type-padd{
+				padding-left:80px;
+			}
+	    }
+	    .type-content{
+	    	clear: both;
+	    	font-size:15px;
+	    }
+	}
+}
+
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+.reviews-area.owl-carousel{
+	margin: 40px 0;
+	.review-item{
+		padding:30px;
+		background:#fff;
+		text-align:left;
+		color:$color-black;
+	}
+	.review-image{
+		float:left;
+		width:50px;
+		img{
+			width:auto;
+		}
+	}
+	.review-top{
+		float:left;
+		width:calc(100% - 50px);
+		margin-bottom: 30px;
+	}
+	.review-source{
+		position:absolute;
+		top:20px;
+		right:20px;
+		img{
+			max-width:32px;
+		}
+	}
+	.review-content{
+		clear:both;
+		line-height:1.5;
+		.review-content-inner{
+			-webkit-line-clamp: 6;
+		    -webkit-box-orient: vertical;
+		    overflow: hidden;
+		    display: -webkit-box;
+		}
+		.see-more{
+			float:left;
+			text-decoration:underline;
+			cursor:pointer;
+		}
+		.see-less{
+			display:none;
+			text-decoration:underline;
+			cursor:pointer;
+		}
+		&.opened{
+			.review-content-inner{
+				display:block;
+			}
+			.see-more{
+				display:none;
+			}
+			.see-less{
+				display:block;
+				float:left;
+			}
+		}
+	}
+	.review-name{
+		font-size:18px;
+	}
+	.review-procedure{
+		font-weight:bold;
+	}
+	.owl-nav{
+		position: absolute;
+	    top: -70px;
+	    right: 0;
+	    margin-top:0;
+	    button.owl-prev, button.owl-next{
+	    	text-indent: 0;
+	    	border-radius: 100%;
+		    border: 1px solid #818182;
+		    background-color: transparent;
+		    text-align: center;
+		    font-family: pt-serif, serif;
+		    opacity: .4;
+		    transition: opacity .3s ease;
+
+	    	color: #818182;
+	    	width: 3.125rem;
+		    height: 3.125rem;
+		    line-height: 3.125rem;
+		    font-size: .875rem;
+		    margin: 0 0.75rem;
+		    &:hover{
+		    	opacity: 1;
+		    }
+	    }
+	}
+}
+.reviews-inner{
+	max-width: 300px;
+    margin: 50px auto 0;
+    border-radius: 50%;
+    background: #000;
+    color: #fff;
+    height: 300px;
+    padding: 40px 20px;
+}
+
+
+/* Media Queries */
+@media (min-width: 992px) {
+	.single-treatment{
+		#treatment-header{
+			p{
+				font-size:1.25rem;
+			}
+			p:first-of-type{
+				font-size: 1.25rem;
+				line-height: 1.875rem;
+			}
+		}
+	}
+}
+
+@media screen and (max-width: 992px) {
+	.types{
+		.type{
+			width:100%;
+			margin-right:0;
+			padding-bottom:30px;
+			min-height:0;
+		}
+	}
+	.intro-area{
+		padding-left: 20px;
+    	padding-right: 20px;
+	}
+	#before-afters, #faq{
+		margin-top:30px;
+	}
+	.single-treatment{
+		h2{
+			font-size:2rem;
+		}
+	}
+	.reviews-inner{
+		margin:0px auto 20px;
+	}
+	.reviews-area.owl-carousel{
+		.owl-nav{
+			width:148px;
+			right:calc(50% - 74px);
+		}
+	}
+}
+
+@media screen and (max-width: 600px) {
+	.procedure-info{
+		.procedure-column{
+			width:100%;
+			margin-right:0;
+		}
+		.procedure-column-3{
+			.procedure-block{
+				min-height:0;
+			}
+		}
+	}
+	.padding{
+		padding-top:30px;
+		padding-bottom:30px;
+	}
+	.types{
+		.type{
+			h3{
+				padding-left:0;
+				margin-bottom:15px;
+				img{
+					position:relative;
+					display: block;
+    				margin-bottom: 20px;
+				}
+			}
+		}
+	}
+	.reviews-area.owl-carousel{
+		margin:60px 0 0px;
+	}
+	.intro-area{
+		padding-top:0;
+		padding-bottom:20px;
+	}
+	.greybg{
+		.intro-area{
+			padding-top:30px;
+			padding-bottom:30px;
+		}
+	}
+}
+
+
+
+
+
+/**** OWL CAROUSEL ****/
+
+/**
+ * Owl Carousel v2.3.4
+ * Copyright 2013-2018 David Deutsch
+ * Licensed under: SEE LICENSE IN https://github.com/OwlCarousel2/OwlCarousel2/blob/master/LICENSE
+ */
+/*
+ *  Owl Carousel - Core
+ */
+.owl-carousel {
+  display: none;
+  width: 100%;
+  -webkit-tap-highlight-color: transparent;
+  /* position relative and z-index fix webkit rendering fonts issue */
+  position: relative;
+  z-index: 1; }
+  .owl-carousel .owl-stage {
+    position: relative;
+    -ms-touch-action: pan-Y;
+    touch-action: manipulation;
+    -moz-backface-visibility: hidden;
+    /* fix firefox animation glitch */ }
+  .owl-carousel .owl-stage:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0; }
+  .owl-carousel .owl-stage-outer {
+    position: relative;
+    overflow: hidden;
+    /* fix for flashing background */
+    -webkit-transform: translate3d(0px, 0px, 0px); }
+  .owl-carousel .owl-wrapper,
+  .owl-carousel .owl-item {
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -ms-backface-visibility: hidden;
+    -webkit-transform: translate3d(0, 0, 0);
+    -moz-transform: translate3d(0, 0, 0);
+    -ms-transform: translate3d(0, 0, 0); }
+  .owl-carousel .owl-item {
+    position: relative;
+    min-height: 1px;
+    float: left;
+    -webkit-backface-visibility: hidden;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-touch-callout: none; }
+  .owl-carousel .owl-item img {
+    display: block;
+    width: 100%; }
+  .owl-carousel .owl-nav.disabled,
+  .owl-carousel .owl-dots.disabled {
+    display: none; }
+  .owl-carousel .owl-nav .owl-prev,
+  .owl-carousel .owl-nav .owl-next,
+  .owl-carousel .owl-dot {
+    cursor: pointer;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none; }
+  .owl-carousel .owl-nav button.owl-prev,
+  .owl-carousel .owl-nav button.owl-next,
+  .owl-carousel button.owl-dot {
+    background: none;
+    color: inherit;
+    border: none;
+    padding: 0 !important;
+    font: inherit; }
+  .owl-carousel.owl-loaded {
+    display: block; }
+  .owl-carousel.owl-loading {
+    opacity: 0;
+    display: block; }
+  .owl-carousel.owl-hidden {
+    opacity: 0; }
+  .owl-carousel.owl-refresh .owl-item {
+    visibility: hidden; }
+  .owl-carousel.owl-drag .owl-item {
+    -ms-touch-action: pan-y;
+        touch-action: pan-y;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none; }
+  .owl-carousel.owl-grab {
+    cursor: move;
+    cursor: grab; }
+  .owl-carousel.owl-rtl {
+    direction: rtl; }
+  .owl-carousel.owl-rtl .owl-item {
+    float: right; }
+
+/* No Js */
+.no-js .owl-carousel {
+  display: block; }
+
+/*
+ *  Owl Carousel - Animate Plugin
+ */
+.owl-carousel .animated {
+  animation-duration: 1000ms;
+  animation-fill-mode: both; }
+
+.owl-carousel .owl-animated-in {
+  z-index: 0; }
+
+.owl-carousel .owl-animated-out {
+  z-index: 1; }
+
+.owl-carousel .fadeOut {
+  animation-name: fadeOut; }
+
+@keyframes fadeOut {
+  0% {
+    opacity: 1; }
+  100% {
+    opacity: 0; } }
+
+/*
+ * 	Owl Carousel - Auto Height Plugin
+ */
+.owl-height {
+  transition: height 500ms ease-in-out; }
+
+/*
+ * 	Owl Carousel - Lazy Load Plugin
+ */
+.owl-carousel .owl-item {
+  /**
+			This is introduced due to a bug in IE11 where lazy loading combined with autoheight plugin causes a wrong
+			calculation of the height of the owl-item that breaks page layouts
+		 */ }
+  .owl-carousel .owl-item .owl-lazy {
+    opacity: 0;
+    transition: opacity 400ms ease; }
+  .owl-carousel .owl-item .owl-lazy[src^=""], .owl-carousel .owl-item .owl-lazy:not([src]) {
+    max-height: 0; }
+  .owl-carousel .owl-item img.owl-lazy {
+    transform-style: preserve-3d; }
+
+/*
+ * 	Owl Carousel - Video Plugin
+ */
+.owl-carousel .owl-video-wrapper {
+  position: relative;
+  height: 100%;
+  background: #000; }
+
+.owl-carousel .owl-video-play-icon {
+  position: absolute;
+  height: 80px;
+  width: 80px;
+  left: 50%;
+  top: 50%;
+  margin-left: -40px;
+  margin-top: -40px;
+  background: url("owl.video.play.png") no-repeat;
+  cursor: pointer;
+  z-index: 1;
+  -webkit-backface-visibility: hidden;
+  transition: transform 100ms ease; }
+
+.owl-carousel .owl-video-play-icon:hover {
+  -ms-transform: scale(1.3, 1.3);
+      transform: scale(1.3, 1.3); }
+
+.owl-carousel .owl-video-playing .owl-video-tn,
+.owl-carousel .owl-video-playing .owl-video-play-icon {
+  display: none; }
+
+.owl-carousel .owl-video-tn {
+  opacity: 0;
+  height: 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  transition: opacity 400ms ease; }
+
+.owl-carousel .owl-video-frame {
+  position: relative;
+  z-index: 1;
+  height: 100%;
+  width: 100%; }
+
+  /**
+ * Owl Carousel v2.3.4
+ * Copyright 2013-2018 David Deutsch
+ * Licensed under: SEE LICENSE IN https://github.com/OwlCarousel2/OwlCarousel2/blob/master/LICENSE
+ */
+/*
+ * 	Default theme - Owl Carousel CSS File
+ */
+.owl-theme .owl-nav {
+  margin-top: 10px;
+  text-align: center;
+  -webkit-tap-highlight-color: transparent; }
+  .owl-theme .owl-nav [class*='owl-'] {
+    color: #FFF;
+    font-size: 14px;
+    margin: 5px;
+    padding: 4px 7px;
+    background: #D6D6D6;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 3px; }
+    .owl-theme .owl-nav [class*='owl-']:hover {
+      background: #869791;
+      color: #FFF;
+      text-decoration: none; }
+  .owl-theme .owl-nav .disabled {
+    opacity: 0.5;
+    cursor: default; }
+
+.owl-theme .owl-nav.disabled + .owl-dots {
+  margin-top: 10px; }
+
+.owl-theme .owl-dots {
+  text-align: center;
+  -webkit-tap-highlight-color: transparent; }
+  .owl-theme .owl-dots .owl-dot {
+    display: inline-block;
+    zoom: 1;
+    *display: inline; }
+    .owl-theme .owl-dots .owl-dot span {
+      width: 10px;
+      height: 10px;
+      margin: 5px 7px;
+      background: #D6D6D6;
+      display: block;
+      -webkit-backface-visibility: visible;
+      transition: opacity 200ms ease;
+      border-radius: 30px; }
+    .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+      background: #869791; }
